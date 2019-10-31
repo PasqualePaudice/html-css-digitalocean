@@ -1,7 +1,4 @@
-.prova{
-    background-color: red;
-    height: 30px;
-}
+
 
 .uppercase{
     text-transform: uppercase;
@@ -395,6 +392,53 @@ span:after{
     float: right;
     right:16px;
 }
+
+/*fine jumbo*/
+
+/*optimized*/
+.b{
+    border:1px solid blue;
+    height: 50px;
+}
+
+#optimized {
+    background-color: white;
+    padding-top: 120px;
+    padding-bottom: 64px
+}
+
+#optimized div h2 {
+    font-size: 36px;
+    letter-spacing: -.9px;
+}
+
+#optimized div p {
+    font-size: 20px;
+    margin-bottom: 64px;
+    margin-top: 16px;
+    color: rgba(3,27,78,.7);
+}
+
+.opti{
+    height: 812.8px;
+}
+
+.padding_{
+    padding-left: 90px;
+}
+
+
+
+
+#optimized div ol li {
+    padding: 17px 10px 17px 30px;
+    border-left: 2px solid #e5e8ed;
+}
+
+#optimized div ol li:first-child{
+    border-left-color: #0069ff;
+}
+/*fine optimized*/
 
 }
 
