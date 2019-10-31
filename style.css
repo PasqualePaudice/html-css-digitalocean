@@ -3,6 +3,10 @@
     height: 30px;
 }
 
+.uppercase{
+    text-transform: uppercase;
+}
+
 .clearfix {
     content: '';
     clear: both;
@@ -146,6 +150,7 @@ header .burger{
     background-repeat: no-repeat;
     min-height: 800px;
     padding-bottom: 100px;
+    margin-bottom: 0;
 }
 
 .jumbotron .container {
@@ -304,9 +309,29 @@ span:after{
 
 /*fine jumbo*/
 
+/*sponsor*/
+
+#sponsor{
+    background-color: #F3F5F9;
+    padding: 40px 0;
+
+}
+
+#cont_spons {
+
+}
 
 
+#cont_spons h2{
+    font-size: 14px;
+    color: grey;
+    opacity: .7;
+}
 
+#cont_spons img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
 @media screen and (min-width:768px) {
 
 /*new*/
@@ -429,6 +454,18 @@ span:after{
 
 
 /*fine nav    */
+
+/*jumbo*/
+
+.bt1{
+    left: 50px;
+
+}
+
+.bt2 {
+    float: right;
+    right:50px;
+}
 
 
 }
