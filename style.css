@@ -329,6 +329,9 @@ span:after{
     max-width: 100%;
     margin-bottom: 10px;
 }
+
+
+
 @media screen and (min-width:768px) {
 
 /*new*/
@@ -398,13 +401,11 @@ span:after{
 /*optimized*/
 .b{
     border:1px solid blue;
-    height: 50px;
 }
 
 #optimized {
     background-color: white;
     padding-top: 120px;
-    padding-bottom: 64px
 }
 
 #optimized div h2 {
@@ -433,11 +434,33 @@ span:after{
 #optimized div ol li {
     padding: 17px 10px 17px 30px;
     border-left: 2px solid #e5e8ed;
+    color: rgba(3,27,78,.5);
+    font-size: 16px;
 }
 
 #optimized div ol li:first-child{
     border-left-color: #0069ff;
+    color: black;
+
 }
+
+#optimized div ol li:hover{
+    color: black;
+    cursor: pointer;
+
+}
+
+#optimized div div div .riga-ruota p{
+
+    font-size: 16px;
+
+}
+
+.riga-ruota{
+    padding-bottom:10px;
+}
+
+
 /*fine optimized*/
 
 }
