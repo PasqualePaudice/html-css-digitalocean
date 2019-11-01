@@ -1,8 +1,3 @@
-.prova{
-    border:1px solid blue;
-    height: 300px;
-}
-
 .uppercase{
     text-transform: uppercase;
 }
@@ -332,6 +327,166 @@ span:after{
     max-width: 100%;
     margin-bottom: 10px;
 }
+/*fine sponsor*/
+
+/*optimized*/
+
+
+#optimized {
+    background-color: white;
+    padding-top: 120px;
+}
+
+#optimized div h2 {
+    font-size: 36px;
+    letter-spacing: -.9px;
+}
+
+#optimized div p {
+    font-size: 20px;
+    margin-bottom: 64px;
+    margin-top: 16px;
+    color: rgba(3,27,78,.7);
+}
+
+.opti{
+    height: 812.8px;
+}
+
+.padding_{
+    padding-left: 90px;
+}
+
+
+
+
+#optimized div ol li {
+    padding: 17px 10px 17px 30px;
+    border-left: 2px solid #e5e8ed;
+    color: rgba(3,27,78,.5);
+    font-size: 16px;
+}
+
+#optimized div ol li:first-child{
+    border-left-color: #0069ff;
+    color: black;
+
+}
+
+#optimized div ol li:hover{
+    color: black;
+    cursor: pointer;
+
+}
+
+#optimized div div div .riga-ruota p{
+
+    font-size: 16px;
+
+}
+
+.riga-ruota{
+    padding-bottom:10px;
+}
+
+
+/*fine optimized*/
+
+/*for developers*/
+#for_developers .container{
+
+    padding: 50px 0;
+
+}
+
+#for_developers {
+    background-color: #F3F5F9;
+}
+
+#developers{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#developers p{
+
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgba(3,27,78,.7);
+
+}
+
+#developers h2{
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.sezione_immagine {
+    max-width: 90%;
+    margin:50px auto;
+    position: relative;
+
+}
+
+.sezione_immagine p:first-child{
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    bottom: 35%;
+    left:15%;
+    color: rgba(0,0,0,.5);
+    display: none;
+}
+
+.sezione_immagine p:first-child:hover {
+    cursor: pointer;
+}
+
+.sezione_immagine p:nth-last-child(2){
+    position: absolute;
+    text-align: right;
+    font-size: 50px;
+    bottom: 35%;
+    right:15%;
+    display: none;
+
+}
+
+.sezione_immagine p:nth-last-child(2):hover {
+    cursor: pointer;
+}
+
+
+.screenshot {
+    max-width: 60%;
+}
+
+.screenshot:hover {
+    cursor: grab;
+}
+
+.Kubernetes{
+    width: 70%;
+    margin: 1.25rem auto;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    letter-spacing: 2px;
+}
+
+.Kubernetes i {
+    font-size: 10px;
+    color: #0069ff;
+}
+/*fine for developers*/
+
+
+
+
+
+
+
+
+
 
 
 
@@ -401,138 +556,29 @@ span:after{
 
 /*fine jumbo*/
 
-/*optimized*/
+/*developers*/
 
-
-#optimized {
-    background-color: white;
-    padding-top: 120px;
+.sezione_immagine p:first-child{
+    display: inline-block;
+    left: 15%;
 }
+.sezione_immagine p:nth-last-child(2){
+    right: 15%;
+    display: inline-block;
 
-#optimized div h2 {
-    font-size: 36px;
-    letter-spacing: -.9px;
-}
-
-#optimized div p {
-    font-size: 20px;
-    margin-bottom: 64px;
-    margin-top: 16px;
-    color: rgba(3,27,78,.7);
-}
-
-.opti{
-    height: 812.8px;
-}
-
-.padding_{
-    padding-left: 90px;
-}
-
-
-
-
-#optimized div ol li {
-    padding: 17px 10px 17px 30px;
-    border-left: 2px solid #e5e8ed;
-    color: rgba(3,27,78,.5);
-    font-size: 16px;
-}
-
-#optimized div ol li:first-child{
-    border-left-color: #0069ff;
-    color: black;
 
 }
 
-#optimized div ol li:hover{
-    color: black;
-    cursor: pointer;
-
-}
-
-#optimized div div div .riga-ruota p{
-
-    font-size: 16px;
-
-}
-
-.riga-ruota{
-    padding-bottom:10px;
-}
-
-
-/*fine optimized*/
-
-/*for developers*/
 #for_developers .container{
 
     padding: 120px 0;
 
 }
 
-#for_developers {
-    background-color: #F3F5F9;
-}
-
-#developers p{
-    width: 90%;
-    margin: 0 auto;
-    font-size: 20px;
-    letter-spacing: 2px;
-    color: rgba(3,27,78,.7);
-
-}
-
-#developers h2{
-    font-weight: 900;
-    letter-spacing: 1px;
-}
-
-.sezione_immagine {
-    width: 90%;
-    margin:50px auto;
-    position: relative;
-
-}
-
-.sezione_immagine p:first-child{
-    position: absolute;
-    text-align: left;
-    font-size: 50px;
-    bottom: 35%;
-    left:10%;
-    color: rgba(0,0,0,.5);
-
-}
-.sezione_immagine p:nth-last-child(2){
-    position: absolute;
-    text-align: right;
-    font-size: 50px;
-    bottom: 35%;
-    right:10%;
+/*fine developers*/
 
 
-}
 
-
-.screenshot {
-    max-width: 736px;
-}
-
-.Kubernetes{
-    width: 70%;
-    margin: 1.25rem auto;
-    font-size: 1.5rem;
-    line-height: 1.7;
-    letter-spacing: 2px;
-}
-
-.Kubernetes i {
-    font-size: 10px;
-    color: #0069ff;
-}
-/*fine for developers*/
 
 @media screen and (min-width:992px) {
 
