@@ -511,12 +511,21 @@ span:after{
 }
 #built_row {
     margin: 30px 0;
+    display: inline-block;
+    position: relative;
 
 }
+
 #built_row div{
-    padding-right:35px;
+    padding-right:30px;
+    margin-bottom: 20px;
 
 }
+
+#built_row div.row{
+    display: inline-block;
+}
+
 #built_img2 {
     margin-bottom: 6px;
 }
@@ -631,10 +640,20 @@ span:after{
 
 /*fine developers*/
 
+#built_row div:last-child {
+    position: absolute;
+    bottom: -7%;
+
+}
+
 
 
 
 @media screen and (min-width:992px) {
+    #built_row div:last-child {
+        position:static;
+
+    }
 
 }
 
