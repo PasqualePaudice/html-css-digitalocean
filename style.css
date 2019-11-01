@@ -1,4 +1,7 @@
-
+.prova{
+    border:1px solid blue;
+    height: 300px;
+}
 
 .uppercase{
     text-transform: uppercase;
@@ -399,9 +402,7 @@ span:after{
 /*fine jumbo*/
 
 /*optimized*/
-.b{
-    border:1px solid blue;
-}
+
 
 #optimized {
     background-color: white;
@@ -463,7 +464,75 @@ span:after{
 
 /*fine optimized*/
 
+/*for developers*/
+#for_developers .container{
+
+    padding: 120px 0;
+
 }
+
+#for_developers {
+    background-color: #F3F5F9;
+}
+
+#developers p{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgba(3,27,78,.7);
+
+}
+
+#developers h2{
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.sezione_immagine {
+    width: 90%;
+    margin:50px auto;
+    position: relative;
+
+}
+
+.sezione_immagine p:first-child{
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    bottom: 35%;
+    left:10%;
+    color: rgba(0,0,0,.5);
+
+}
+.sezione_immagine p:nth-last-child(2){
+    position: absolute;
+    text-align: right;
+    font-size: 50px;
+    bottom: 35%;
+    right:10%;
+
+
+}
+
+
+.screenshot {
+    max-width: 736px;
+}
+
+.Kubernetes{
+    width: 70%;
+    margin: 1.25rem auto;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    letter-spacing: 2px;
+}
+
+.Kubernetes i {
+    font-size: 10px;
+    color: #0069ff;
+}
+/*fine for developers*/
 
 @media screen and (min-width:992px) {
 
