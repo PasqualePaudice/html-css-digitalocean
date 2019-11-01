@@ -1,3 +1,7 @@
+a:hover{
+    text-decoration: none;
+}
+
 .uppercase{
     text-transform: uppercase;
 }
@@ -479,6 +483,56 @@ span:after{
 }
 /*fine for developers*/
 
+/*built*/
+.div_built{
+    padding: 120px 0;
+}
+
+.built h2{
+    font-weight: 900;
+}
+
+.built_img{
+    width:40px;
+}
+.built_img1{
+    width:45px;
+    margin-bottom: 6px;
+}
+
+.h4{
+    font-weight: 700;
+}
+
+.p {
+    color: rgba(3,27,78,.7);
+    line-height: 1.8;
+    margin-top: 16px;
+}
+#built_row {
+    margin: 30px 0;
+
+}
+#built_row div{
+    padding-right:35px;
+
+}
+#built_img2 {
+    margin-bottom: 6px;
+}
+
+.a_built {
+    color: blue;
+    font-weight: bold;
+}
+.a_built:hover {
+    color: blue;
+
+}
+
+
+/*fine built*/
+
 
 
 
@@ -645,8 +699,10 @@ span:after{
 }
 
 .bt2 {
+
     float: right;
     right:50px;
+
 }
 
 
