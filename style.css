@@ -559,13 +559,13 @@ span:after{
 #container_data_w {
     background-color: #031b4e;
     background-image: url("https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg");
-    height: 632px;
+    min-height: 632px;
     padding-bottom: 120px;
     padding-top: 120px;
 }
 
 #data_world {
-    height: 392px
+    min-height: 392px
     color: white;
 
 }
@@ -614,7 +614,10 @@ table {
 
 .tab {
     margin: 20px 0;
+    max-width: 100%;
 }
+
+
 
 
 /*fine data world*/
