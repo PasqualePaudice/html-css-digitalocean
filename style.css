@@ -694,6 +694,58 @@ table {
 
 
 
+/*footer*/
+
+footer {
+    background-color: #010E28;
+    padding: 96px 0;
+}
+
+footer div.container {
+    width: 60%
+}
+
+footer div.container div span{
+    color: white;
+}
+
+
+footer div.container div{
+    position: static;
+
+}
+
+#footer_list {
+    color: hsla(0,0%,100%,.5);
+    margin-top:10px;
+}
+
+hr{
+ border-color: hsla(0,0%,100%,.5);
+}
+
+footer em{
+    font-size: 10px;
+    color:  hsla(0,0%,100%,.5);
+}
+#second_row{
+    width: 100%;
+    display: inline-block;
+}
+footer div.text-right{
+    width: 100%;
+    display: inline-block;
+}
+
+#iconf{
+    color: hsla(0,0%,100%,.5);
+    font-size: 25px;
+    margin-left: 10px;
+}
+/*fine footer*/
+
+
+
 
 
 
@@ -721,12 +773,13 @@ table {
     font-weight: 900;
     font-size: 36px;
 
-
+}
 
 /*fine new*/
 
 
 /*nav*/
+
 #burger_{
     position: absolute;
     right: 0;
@@ -815,6 +868,15 @@ table {
     #built_row div:last-child {
         position:static;
 
+    }
+
+    #second_row{
+        width: 50%;
+        display: inline-block;
+    }
+    footer div.text-right{
+        width: 50%;
+        display: inline-block;
     }
 
 }
