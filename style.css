@@ -435,31 +435,31 @@ span:after{
 
 }
 
-.sezione_immagine p:first-child{
+.sezione_immagine p:first-child, #freccia_s{
     position: absolute;
     text-align: left;
     font-size: 50px;
-    bottom: 35%;
+    bottom: 40%;
     left:15%;
     color: rgba(0,0,0,.5);
     display: none;
 }
 
-.sezione_immagine p:first-child:hover {
+.sezione_immagine p:first-child:hover , #freccia_s:hover{
     cursor: pointer;
 }
 
-.sezione_immagine p:nth-last-child(2){
+.sezione_immagine p:nth-last-child(2) ,  #freccia{
     position: absolute;
     text-align: right;
     font-size: 50px;
-    bottom: 35%;
+    bottom: 40%;
     right:15%;
     display: none;
 
 }
 
-.sezione_immagine p:nth-last-child(2):hover {
+.sezione_immagine p:nth-last-child(2):hover,  #freccia:hover {
     cursor: pointer;
 }
 
@@ -623,6 +623,55 @@ table {
 /*fine data world*/
 
 
+/*inizio rockerbox*/
+
+
+.rockerbox {
+    background-color: white;
+    width: 50%;
+    margin:40px auto;
+    padding-bottom: 80px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+.blockquote-image{
+    padding: 20px 0;
+}
+
+#we{
+    font-size: 20px;
+    color: rgba(3,27,78,.7);
+}
+
+.rockerbox img {
+    max-width: 175px;
+}
+
+.Blockquote-citation {
+    opacity: .6;
+    margin: 20px 0;
+}
+
+.read_story a {
+    color: blue;
+}
+
+
+/*fine rockerbox*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -697,11 +746,11 @@ table {
 
 /*developers*/
 
-.sezione_immagine p:first-child{
+.sezione_immagine p:first-child, #freccia_s{
     display: inline-block;
     left: 15%;
 }
-.sezione_immagine p:nth-last-child(2){
+.sezione_immagine p:nth-last-child(2), #freccia{
     right: 15%;
     display: inline-block;
 
