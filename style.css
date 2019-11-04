@@ -6,6 +6,8 @@ a:hover{
     text-transform: uppercase;
 }
 
+
+
 .clearfix {
     content: '';
     clear: both;
@@ -90,6 +92,7 @@ header {
     top: 0;
     position: relative;
     background-color:#0248FF;
+    box-shadow: 0px 0.5px 2px;
 }
 
 header a svg {
