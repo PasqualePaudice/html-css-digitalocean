@@ -92,7 +92,7 @@ header {
     top: 0;
     position: relative;
     background-color:#0248FF;
-    box-shadow: 0px 0.5px 2px;
+    box-shadow: 0 2px 4px rgba(3,27,78,.1);
 }
 
 header a svg {
